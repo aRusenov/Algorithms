@@ -6,7 +6,7 @@ namespace SortingAlgorithmsPack
 {
     public abstract class SortingAlgorithm<T> where T : IComparable<T>
     {
-        public abstract bool IsStable { get; }
+        public abstract bool Stable { get; }
 
         public abstract void Sort(List<T> data);
 

@@ -6,7 +6,7 @@ namespace SortingAlgorithmsPack
     public class HeapSort<T> : SortingAlgorithm<T>
         where T : IComparable<T>
     {
-        public override bool IsStable
+        public override bool Stable
         {
             get
             {

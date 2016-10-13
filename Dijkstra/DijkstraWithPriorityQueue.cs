@@ -4,7 +4,11 @@
 
     public static class DijkstraWithPriorityQueue
     {
-        public static List<int> DijkstraAlgorithm(Dictionary<Node, Dictionary<Node, int>> graph, Dictionary<int, Node> nodes, int sourceNode, int destinationNode)
+        public static List<int> DijkstraAlgorithm(
+            Dictionary<Node, Dictionary<Node, int>> graph, 
+            Dictionary<int, Node> nodes, 
+            int sourceNode, 
+            int destinationNode)
         {
             int[] previous = new int[graph.Count];
             bool[] visited = new bool[graph.Count];
@@ -18,7 +22,6 @@
             }
 
             priorityQueue.Enqueue(startNode);
-
             while (priorityQueue.Count > 0)
             {
                 var currentNode = priorityQueue.ExtractMin();

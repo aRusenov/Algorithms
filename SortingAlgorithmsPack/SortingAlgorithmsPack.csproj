@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="BubbleSort.cs" />
     <Compile Include="HeapSort.cs" />
+    <Compile Include="MergeSort.cs" />
+    <Compile Include="QuickSort.cs" />
     <Compile Include="SelectionSort.cs" />
     <Compile Include="SortingMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
