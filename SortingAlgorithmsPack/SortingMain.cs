@@ -7,7 +7,7 @@ namespace SortingAlgorithmsPack
     {
         static void Main()
         {
-            var numbers = new List<int> { 7, 2, -5, 10, 1, 0, 9, 4 };
+            var numbers = new List<int> { 7, 2, -5, 10, 1, 0, 9, 4, 3, 20 };
             var sortingAlgorithm = new HeapSort<int>();
             sortingAlgorithm.Sort(numbers);
             Console.WriteLine(string.Join(" ", numbers));

@@ -35,7 +35,7 @@ namespace SortingAlgorithmsPack
                 this.count = collection.Count;
                 for (int i = collection.Count / 2; i >= 0; i--)
                 {
-                    HeapifyUp(i);
+                    HeapifyDown(i);
                 }
             }
 
