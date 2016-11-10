@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithmsPack", "So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArticulationPoints", "ArticulationPoints\ArticulationPoints.csproj", "{CA2BB879-F361-46FF-B576-44D5FBEBF01A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditDistnace", "EditDistnace\EditDistnace.csproj", "{8B5CCD39-10F8-4F2A-8367-B8236F44A54C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{CA2BB879-F361-46FF-B576-44D5FBEBF01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA2BB879-F361-46FF-B576-44D5FBEBF01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA2BB879-F361-46FF-B576-44D5FBEBF01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5CCD39-10F8-4F2A-8367-B8236F44A54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5CCD39-10F8-4F2A-8367-B8236F44A54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5CCD39-10F8-4F2A-8367-B8236F44A54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5CCD39-10F8-4F2A-8367-B8236F44A54C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,5 +81,6 @@ Global
 		{A666F4C1-2BBE-4D87-BB2C-DCBD623E201A} = {1C8C0862-2031-462E-B95E-CF49CFEF6B7D}
 		{A9EB4D6E-6C2B-4DDD-B500-95D1D2E704CC} = {121B160E-01BC-4590-B3BD-82D3819E73DD}
 		{CA2BB879-F361-46FF-B576-44D5FBEBF01A} = {F3CE7CFB-467A-4043-A541-12840541B2EC}
+		{8B5CCD39-10F8-4F2A-8367-B8236F44A54C} = {FDB93716-791E-4D8A-AA90-6BA4F1A934F3}
 	EndGlobalSection
 EndGlobal
